@@ -132,38 +132,66 @@ int main(){
 
         if( populacao_1 > populacao_2){
         printf("População: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %d \n", cidade_1, populacao_1);
+        printf("Carta 2 %s = %d \n\n", cidade_2, populacao_2);
     } else{
         printf("População: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %d \n", cidade_1, populacao_1);
+        printf("Carta 2 %s = %d \n\n", cidade_2, populacao_2);
     }
         if( area_1 > area_2){
         printf("Area: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, area_1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, area_2);
     } else{
         printf("Area: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, area_1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, area_2);
     }
         if( pib_1 > pib_2){
         printf("Pib: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, pib_1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, pib_2);
     } else{
         printf("Pib: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, pib_1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, pib_2);
     }
         if( turismo_1 > turismo_2){
         printf("Turismo: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %d \n", cidade_1, turismo_1);
+        printf("Carta 2 %s = %d \n\n", cidade_2, turismo_2);
     } else{
         printf("Turismo: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %d \n", cidade_1, turismo_1);
+        printf("Carta 2 %s = %d \n\n", cidade_2, turismo_2);
     }
-            if( densidade1 > densidade2){
+            if( densidade1 < densidade2){
         printf("Densidade: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, densidade1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, densidade2);
     } else{
         printf("Densidade: Carta 2 Venceu \n");
+         printf("Carta 1 %s = %.2f \n", cidade_1, densidade1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, densidade2);
     }
             if( capta1 > capta2){
         printf("PIB Percapta: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, capta1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, capta2);
     } else{
         printf("PIB Percapta: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, capta1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, capta2);
     }
             if( poder1 > poder2){
         printf("Super Poder: Carta 1 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, poder1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, poder2);
     } else{
-        printf("Super Poder: Carta 2 Venceu \n\n");
+        printf("Super Poder: Carta 2 Venceu \n");
+        printf("Carta 1 %s = %.2f \n", cidade_1, poder1);
+        printf("Carta 2 %s = %.2f \n\n", cidade_2, poder2);
     }
 
     //Resultado Final
