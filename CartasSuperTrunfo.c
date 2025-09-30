@@ -14,7 +14,7 @@ int main(){
 
     int area, pib, populacao, turismo, densidade, capta, poder, resultado;
 
-    //Inicio
+    //Inicio do jogo
 
     printf("Bem Vindo ao Super Trunfo \n");
     printf("Comece criando sua primeira carta\n");
